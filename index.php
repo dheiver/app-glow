@@ -29,7 +29,7 @@ background: linear-gradient(138deg, rgba(158,64,239,1) 0%, rgba(247,61,96,1) 100
           </div>    
           <div class="d-flex justify-content-center align-items-center">
 
-              <h1>Em construção...</h1>
+              <h1>TESTE</h1>
           </div>
     <!-- <form>
           
