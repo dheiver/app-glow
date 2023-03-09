@@ -1,0 +1,15 @@
+{
+    "name": "glow/app",
+    "autoload": {
+        "psr-4": {
+            "Glow\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luciano Gouveia",
+            "email": "ljdgb2012@gmail.com"
+        }
+    ],
+    "require": {}
+}

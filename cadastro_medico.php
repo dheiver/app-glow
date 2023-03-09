@@ -26,60 +26,60 @@ background: linear-gradient(138deg, rgba(158,64,239,1) 0%, rgba(247,61,96,1) 100
                 <h1>Glow</h1>
             </div>
         </div>
-        <form>
+        <form action="cadastrar_medico.php" method="POST">
             <h4>Dados Login</h4>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
             </div>
 
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Senha</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <input name="senha" type="password" class="form-control" id="exampleInputPassword1">
             </div>
             <hr>
             <h4>Dados Pessoais</h4>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Nome Completo</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input name="nome_completo" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
             </div>
             <div class="mb-3 d-flex">
                 <div class="col-4">
                     <label for="exampleInputPassword1" class="form-label">CPF</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1">
+                    <input name='cpf' type="text" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="col-8 ms-1">
                     <label for="exampleInputEmail1" class="form-label">CRM</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input name='crm' type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
 
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Endereço</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input name='endereco' type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
 
             <div class="mb-3 d-flex">
                 <div class="col-8">
                     <label for="exampleInputPassword1" class="form-label">Bairro</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1">
+                    <input name='bairro' type="text" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="col-4 ms-1">
                     <label for="exampleInputEmail1" class="form-label">CEP</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input name='cep' type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
             </div>
 
             <div class="mb-3 d-flex">
                 <div class="col-8">
                     <label for="exampleInputPassword1" class="form-label">Cidade</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1">
+                    <input name='cidade' type="text" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="col-4 ms-1">
                     <label for="exampleInputPassword1" class="form-label">Estado</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1">
+                    <input name='estado' type="text" class="form-control" id="exampleInputPassword1">
                 </div>
 
             </div>

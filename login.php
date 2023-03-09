@@ -26,23 +26,23 @@ background: linear-gradient(138deg, rgba(158,64,239,1) 0%, rgba(247,61,96,1) 100
                   <h1>Glow</h1>
               </div>
           </div>    
-    <form>
+    <form action="validar.php" method="POST">
           
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Senha</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <input name="senha" type="password" class="form-control" id="exampleInputPassword1">
             </div>
             <div class="mb-3 d-flex justify-content-center">
                 <button type="submit" class="btn btn-primary" style="min-width: 160px;background: rgb(158,64,239);
 background: linear-gradient(138deg, rgba(158,64,239,1) 0%, rgba(247,61,96,1) 100%) no-repeat; height: 100%; border:none;box-shadow: 9px 10px 15px -3px rgba(0,0,0,0.75);">Entrar</button>
             </div>
             <div class="mb-3 d-flex justify-content-center">
-                <button type="submit" class="btn btn-sm btn-outline-dark mt-5">Faça seu cadastro</button>
+                <a href='./cadastro_medico.php'  class="btn btn-sm btn-outline-dark mt-5">Faça seu cadastro</a>
             </div>    
         </form>
     </div>
