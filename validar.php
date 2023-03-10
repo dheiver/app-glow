@@ -1,7 +1,8 @@
 <?php
-session_start();
-require '../vendor/autoload.php';
 use Glow\App\Classes\Usuario;
+session_start();
+require './vendor/autoload.php';
+
 
 $email = $_POST['email'];
 $senha = $_POST['senha'];
