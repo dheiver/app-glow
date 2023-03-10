@@ -1,0 +1,22 @@
+# Options +FollowSymLinks -Indexes
+
+
+# RewriteCond %{HTTP:Authorization} .
+# # RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteRule ^ index.php [NC]
+
+<IfModule mod_rewrite.c | rewrite_module>
+    RewriteEngine On  
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}\.php -f
+    RewriteRule ^(.*)$ $1.php
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [NC]
+</IfModule>
+
+
+

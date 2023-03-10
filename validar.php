@@ -14,7 +14,7 @@ $login = new Usuario();
 // exit;
 $array = $login->ValidarLogin($email,$senha);
 
-var_dump($array);
+// var_dump($array);
 echo "email" . $email .'<br>';
 echo "senha " . md5($senha) .'<br>';
 
@@ -29,7 +29,7 @@ if( $array['email']){
   echo $_SESSION['nome'];
 }else{
   echo "<script>alert('Senha errada')
-  location.href = 'login'
+  location.href = 'login.php'
   </script>";
 
 }
