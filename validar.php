@@ -1,8 +1,9 @@
 <?php
+use Glow\App\Classes\Usuario;
 require __DIR__.'/vendor/autoload.php';
 
 // require './src/classes/Usuario.php';
-use Glow\App\Classes\Usuario;
+
 
 session_start();
 
