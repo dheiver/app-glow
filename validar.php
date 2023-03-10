@@ -1,5 +1,7 @@
 <?php
 require './vendor/autoload.php';
+
+require './src/classes/Usuario.php';
 use Glow\App\Classes\Usuario;
 
 session_start();
@@ -10,7 +12,7 @@ $email = $_POST['email'];
 $senha = $_POST['senha'];
 
 
-$login = new \Glow\App\Classes\Usuario();
+$login = new Usuario();
 
 // $login->ValidarLogin($usuario,md5($senha));
 // $login->CriarUsuario("user","user","admin");
