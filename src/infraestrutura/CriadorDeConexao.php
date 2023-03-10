@@ -15,8 +15,8 @@ class CriadorDeConexao
     public static function Conexao()
     {
        
-        $hostname_config = HOSTBD; 
-        $database_config = BD;
+        // $hostname_config = HOSTBD; 
+        // $database_config = BD;
              
 
         try {

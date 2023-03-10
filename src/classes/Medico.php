@@ -12,7 +12,7 @@ class Medico {
     public static function CriarMedico($pessoa_id,$crm){
       $pdo = CriadorDeConexao::Conexao();
   
-      $sql = $pdo->prepare('INSERT INTO pessoa (pessoa_id,crm,) VALUES(:pessoa_id,:crm)');
+      $sql = $pdo->prepare('INSERT INTO medico (pessoa_id,crm) VALUES(:pessoa_id,:crm)');
      
       $sql->bindValue(':pessoa_id', $pessoa_id);
       $sql->bindValue(':crm', $crm);

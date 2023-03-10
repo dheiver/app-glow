@@ -14,6 +14,10 @@ $login = new Usuario();
 // exit;
 $array = $login->ValidarLogin($email,$senha);
 
+var_dump($array);
+echo "email" . $email .'<br>';
+echo "senha " . md5($senha) .'<br>';
+
 
 if( $array['email']){
   

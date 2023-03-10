@@ -1,0 +1,80 @@
+[09-03-2023 17:37:19] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 17:38:42] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 17:41:21] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 17:44:06] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 17:45:14] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 17:46:26] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 17:48:15] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 17:48:20] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 17:57:23] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 17:58:03] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 17:58:55] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 17:58:56] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 17:59:38] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 17:59:39] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:01:02] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:01:03] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:03:31] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:03:32] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:05:48] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:05:49] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:07:02] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:07:03] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:07:03] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:10:34] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:10:35] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:10:35] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:12:08] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:12:09] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:12:10] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:13:42] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:14:01] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:15:40] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:16:46] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:17:58] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 18:24:11] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:05:15] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:05:16] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:05:17] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:05:48] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:06:09] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:06:46] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:13:05] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:13:08] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:13:26] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:13:28] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:13:29] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:13:30] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:13:31] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:13:32] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:13:33] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:13:34] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:14:03] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:15:02] [ERROR]: Falha ao conectar ao banco: SQLSTATE[HY000] [2002] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+[09-03-2023 22:15:59] [ERROR]: Falha ao conectar ao banco: SQLSTATE[HY000] [2002] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+[09-03-2023 22:16:28] [ERROR]: Falha ao conectar ao banco: SQLSTATE[HY000] [2002] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+[09-03-2023 22:17:39] [ERROR]: Falha ao conectar ao banco: SQLSTATE[HY000] [2002] Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+[09-03-2023 22:22:43] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:22:45] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:23:25] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:26:47] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:26:53] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:27:58] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:29:47] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:30:03] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:30:04] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:30:10] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:30:13] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:30:15] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:30:18] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:30:20] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:30:26] [INFO]: Conectado ao banco com sucesso
+[09-03-2023 22:30:28] [INFO]: Conectado ao banco com sucesso

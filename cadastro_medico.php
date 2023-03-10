@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -26,7 +27,7 @@ background: linear-gradient(138deg, rgba(158,64,239,1) 0%, rgba(247,61,96,1) 100
                 <h1>Glow</h1>
             </div>
         </div>
-        <form action="cadastrar_medico.php" method="POST">
+        <form action="cadastros.php" method="POST">
             <h4>Dados Login</h4>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email</label>
@@ -59,6 +60,10 @@ background: linear-gradient(138deg, rgba(158,64,239,1) 0%, rgba(247,61,96,1) 100
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Endereço</label>
                 <input name='endereco' type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Data Nascimento</label>
+                <input name='data_nascimento' type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
 
             <div class="mb-3 d-flex">

@@ -12,7 +12,7 @@ class Usuario {
     public static function CriarUsuario($email,$senha,$pessoa_id){
       $pdo = CriadorDeConexao::Conexao();
   
-      $sql = $pdo->prepare('INSERT INTO usuario (email,senha,pessoa_id,data_criacao) VALUES(:nome,:senha,:pessoa_id,:data_criacao)');
+      $sql = $pdo->prepare('INSERT INTO usuario (email,senha,pessoa_id,data_criacao) VALUES(:email,:senha,:pessoa_id,:data_criacao)');
       $agora = date('d/m/Y H:i');
       $sql->bindValue(':email', $email);
       $sql->bindValue(':senha', md5($senha));

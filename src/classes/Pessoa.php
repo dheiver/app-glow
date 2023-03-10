@@ -12,7 +12,7 @@ class Pessoa {
     public static function CriarPessoa($nome,$cpf,$data_nascimento,$endereco,$estado,$bairro,$cep,$tipo){
       $pdo = CriadorDeConexao::Conexao();
   
-      $sql = $pdo->prepare('INSERT INTO pessoa (nome,cpf,data_nascimento,endereco,estado,bairro,cep,tipo,data_criacao) VALUES(:nome,:cpf,:data_nascimento,:endereco,:estado,:bairro,:cep,:tipo,:data_criacao)');
+      $sql = $pdo->prepare('INSERT INTO pessoa (nome,cpf,data_nascimento,endereco,estado,bairro,cep,tipo) VALUES(:nome,:cpf,:data_nascimento,:endereco,:estado,:bairro,:cep,:tipo)');
       $agora = date('d/m/Y H:i');
       $sql->bindValue(':nome', $nome);
       $sql->bindValue(':cpf', $cpf);
@@ -22,8 +22,10 @@ class Pessoa {
       $sql->bindValue(':bairro', $bairro);
       $sql->bindValue(':cep', $cep);
       $sql->bindValue(':tipo', $tipo);
-      $sql->bindValue(':data_criacao', $agora);
+    
       $sql->execute();
+      $array = $pdo->lastInsertId();
+      return $array;
     }
   
 
@@ -36,6 +38,17 @@ class Pessoa {
       $sql->execute();
       
       $array = $sql->fetch();
+      return $array;
+    }
+
+    public function PegarLastId()
+    {
+      $pdo = CriadorDeConexao::Conexao();
+      $sql = $pdo->prepare("select MAX(id) from pessoa p  ");
+    
+      $sql->execute();
+      
+      $array = $pdo->lastInsertId();
       return $array;
     }
   

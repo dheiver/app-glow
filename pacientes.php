@@ -1,3 +1,16 @@
+<?php
+
+use Glow\App\Classes\Pessoa;
+
+session_start();
+require "./vendor/autoload.php";
+$i = 0;
+if (!$_SESSION['email']) {
+  header('Location:login.php');
+} 
+$arr = new Pessoa();
+$resp = $arr->PegarDados($_SESSION['id']);
+?>
 <!doctype html>
 <html lang="en">
 
@@ -36,7 +49,7 @@ background: linear-gradient(138deg, rgba(158,64,239,1) 0%, rgba(247,61,96,1) 100
                     <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0 fw-semibold ">
                         <li class="nav-item me-5">
 
-                            <a class="nav-link active  " aria-current="page" href="#">
+                            <a class="nav-link active  " aria-current="page" href="painel.php">
                                 <i class="fa-solid fa-house me-2"></i>Home</a>
                         </li>
                         <li class="nav-item ms-1 me-5">
@@ -51,7 +64,7 @@ background: linear-gradient(138deg, rgba(158,64,239,1) 0%, rgba(247,61,96,1) 100
 
                     </ul>
                     <!-- <span>usuario</span> -->
-                    <span class="ms-2">Sair</span>
+                    <a href="logout.php"><span class="ms-2">Sair</span></a>
 
                 </div>
             </div>
@@ -63,7 +76,7 @@ background: linear-gradient(138deg, rgba(158,64,239,1) 0%, rgba(247,61,96,1) 100
 
             </div>
             <div class="container d-flex justify-content-center">
-                <h3>Médico(a): Luciano Braga</h3>
+                <h3>Médico(a):<?php echo $resp['nome'];?></h3>
             </div>
             <hr>
             <div class="row w-100">
