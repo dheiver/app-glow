@@ -10,7 +10,7 @@ $email = $_POST['email'];
 $senha = $_POST['senha'];
 
 
-$login = new Usuario();
+$login = new \Glow\App\Classes\Usuario();
 
 // $login->ValidarLogin($usuario,md5($senha));
 // $login->CriarUsuario("user","user","admin");
