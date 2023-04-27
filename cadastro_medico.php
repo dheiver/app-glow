@@ -1,4 +1,11 @@
 
+<!-- Esse código é uma página HTML que representa um formulário de cadastro de usuários para um sistema chamado "Glow". 
+Ele utiliza o framework Bootstrap para estilização e validação dos campos do formulário. A página tem um fundo degradê 
+de cores roxo e rosa e exibe o logotipo do Glow no topo. O formulário consiste em campos para informações de login 
+(email e senha) e dados pessoais do usuário (nome completo, CPF, CRM, endereço, data de nascimento, bairro, CEP, cidade e estado). 
+Há também um botão "Cadastrar" para enviar as informações para o servidor. O código inclui links para arquivos CSS e JavaScript necessários 
+para o funcionamento do Bootstrap. -->
+
 <!doctype html>
 <html lang="en">
 
